@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SNEK</title>
+    <link rel = "stylesheet" type = "text/css" href = "/static/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/static/snek.js"></script>
+</head>
+<body>
+<div id="inGameTitle">
+    <ul>
+        <li>
+            SNEK |
+        </li>
+        <li>
+            <span id="username">{{ username }}</span> |
+        </li>
+        <li>
+            Score: <span id="score">0</span> |
+        </li>
+        <!--<li>
+             <input type="range" min="1" max="10" value="8" class="slider" id="myRange">
+        </li>
+        <li>
+            Scale: <span id="scaleVal" value="8">8</span>
+        </li>-->
+        <li>
+        <label for="colorBlind">Color Blind</label>
+        <input type="checkbox" id="colorBlind" name="colorBlind">
+        </li>
+    </ul>
+
+</div>
+
+<div id="gameWrapper"></div>
+</body>
+</html>

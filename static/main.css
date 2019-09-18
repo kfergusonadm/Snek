@@ -1,0 +1,157 @@
+#username {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #414a51;
+  font-weight: bold;
+  font-size:
+  border-radius: 5px;
+  //border: 1px solid #414a51;
+  width: 50%;
+  height: 30px;
+  padding: 2px 4px;
+
+}
+ul li{
+    display: inline;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #414a51;
+    font-weight: bold;
+    margin: 1px;
+}
+ul{
+    padding:0px;
+    margin: 0px;
+}
+.center {
+    margin:0 auto;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+
+        position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    overflow:auto;
+    overflow:auto;
+}
+#loginWrapper{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #414a51;
+    font-weight: bold;
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    box-shadow:5px 5px 5px grey;
+
+}
+#gameWrapper{
+    padding: 0;
+    border:2px solid black;
+    box-shadow:8px 8px 8px grey;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:800px;
+    width:800px;
+
+}
+
+#continue{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    margin:10px;
+    margin-top:5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    border-radius: 20px;
+    width: 90%;
+    box-shadow:2px 2px 2px grey;
+}
+#continue:hover{
+    cursor:pointer;
+}
+#continue:active{
+    box-shadow: inset 2px 2px 8px black;
+
+}
+#nameInput{
+    margin:20px;
+}
+#gameTitle{
+    margin:0 auto;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:1;
+    margin:auto;
+    overflow:auto;
+
+        /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:40%;
+    max-height:50%;
+    overflow:auto;
+
+    margin-top: 50px;
+    color: #414a51;
+    font-weight: bold;
+    font-size: 100px;
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    box-shadow:5px 5px 5px grey;
+}
+#inGameTitle{
+    margin:0 auto;
+    /*width: auto;*/
+    padding: 0px;
+    text-align: center;
+
+    position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:1;
+    margin:auto;
+    overflow:auto;
+
+        /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width:50%;
+    max-height:10%;
+
+    margin-top: 10px;
+    color: #414a51;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #F5F5F5;
+    border-radius: 25px;
+    box-shadow:5px 5px 5px grey;
+
+    display: inline-block;
+    height: 50px;
+}
+#colorBlind {
+    width: 30px;
+}
+/*
+.canvas {
+    display: block;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}*/
+.padding10{
+    padding: 10px;
+}
+.padding5{
+    padding: 5px;
+}
